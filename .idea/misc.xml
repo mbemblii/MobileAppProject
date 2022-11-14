@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/ic_menu_camera.xml" value="0.2355" />
+        <entry key="app/src/main/res/drawable/ic_menu_gallery.xml" value="0.2355" />
+        <entry key="app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.2355" />
+        <entry key="app/src/main/res/drawable/panier_icon.xml" value="0.185" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.2177683512369791" />
+        <entry key="app/src/main/res/layout/activity_home2.xml" value="0.26197916666666665" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.37704772949218757" />
+        <entry key="app/src/main/res/layout/activity_registration.xml" value="0.3142832438151042" />
+        <entry key="app/src/main/res/layout/content_home.xml" value="0.26197916666666665" />
+        <entry key="app/src/main/res/layout/fragment_first.xml" value="0.26197916666666665" />
+        <entry key="app/src/main/res/layout/fragment_second.xml" value="0.26197916666666665" />
+        <entry key="app/src/main/res/layout/nav_header_home.xml" value="0.26197916666666665" />
+        <entry key="app/src/main/res/menu/activity_main_drawer.xml" value="0.26197916666666665" />
+        <entry key="app/src/main/res/menu/client_menu.xml" value="0.335" />
+        <entry key="app/src/main/res/menu/home.xml" value="0.1765625" />
+        <entry key="app/src/main/res/menu/restaurent_menu.xml" value="0.1765625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

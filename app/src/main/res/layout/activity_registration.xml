@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrationActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="203dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/screen_shot_2022_11_09_at_6_06_11_pm" />
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:ems="10"
+            android:hint="Nom d'utilisateur"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="@+id/connexionTitle"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/connexionTitle"
+            app:layout_constraintTop_toBottomOf="@+id/connexionTitle" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:ems="10"
+            android:hint="Mot de passe"
+            android:inputType="textPassword"
+            app:layout_constraintEnd_toEndOf="@+id/username"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/username"
+            app:layout_constraintTop_toBottomOf="@+id/username" />
+
+        <TextView
+            android:id="@+id/connexionTitle"
+            android:layout_width="363dp"
+            android:layout_height="43dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="24dp"
+            android:text="Inscription"
+            android:textAlignment="center"
+            android:textColor="#B84A42"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+        <Button
+            android:id="@+id/registreBTN"
+            android:layout_width="159dp"
+            android:layout_height="61dp"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="#FF8001"
+            android:text="S'inscrire"
+            app:layout_constraintEnd_toEndOf="@+id/spinner1"
+            app:layout_constraintStart_toStartOf="@+id/spinner1"
+            app:layout_constraintTop_toBottomOf="@+id/spinner1" />
+
+        <EditText
+            android:id="@+id/fullname"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:ems="10"
+            android:hint="Nom et Prénom"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="@+id/password"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/password"
+            app:layout_constraintTop_toBottomOf="@+id/password" />
+
+        <EditText
+            android:id="@+id/adresse"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:ems="10"
+            android:hint="Adresse"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="@+id/fullname"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="@+id/fullname"
+            app:layout_constraintTop_toBottomOf="@+id/fullname" />
+
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:ems="10"
+            android:hint="Numéro tel"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="@+id/adresse"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="@+id/adresse"
+            app:layout_constraintTop_toBottomOf="@+id/adresse" />
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:background="@android:drawable/btn_dropdown"
+            app:layout_constraintEnd_toEndOf="@+id/phone"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/phone"
+            app:layout_constraintTop_toBottomOf="@+id/phone" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
