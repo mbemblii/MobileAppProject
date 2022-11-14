@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/cna/MobileAppProject/app/src/main/res/layout/activity_home.xml" value="0.1015625" />
+        <entry key="..\:/Users/cna/MobileAppProject/app/src/main/res/layout/activity_splash.xml" value="0.12" />
+        <entry key="..\:/Users/cna/MobileAppProject/app/src/main/res/menu/restaurent_menu.xml" value="0.22" />
         <entry key="app/src/main/res/drawable/ic_menu_camera.xml" value="0.2355" />
         <entry key="app/src/main/res/drawable/ic_menu_gallery.xml" value="0.2355" />
         <entry key="app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.2355" />
@@ -22,10 +25,10 @@
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="corretto-11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
-    <option name="id" value="Android" />
+    <option name="id" value="jpab" />
   </component>
 </project>
