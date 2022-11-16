@@ -3,9 +3,28 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/cna/MobileAppProject/app/src/main/res/drawable/circleFood_background.xml" value="0.1535" />
+        <entry key="..\:/Users/cna/MobileAppProject/app/src/main/res/drawable/ic_baseline_delete_24.xml" value="0.172" />
+        <entry key="..\:/Users/cna/MobileAppProject/app/src/main/res/layout/activity_client.xml" value="0.22" />
         <entry key="..\:/Users/cna/MobileAppProject/app/src/main/res/layout/activity_home.xml" value="0.1015625" />
+        <entry key="..\:/Users/cna/MobileAppProject/app/src/main/res/layout/activity_main.xml" value="0.1953125" />
+        <entry key="..\:/Users/cna/MobileAppProject/app/src/main/res/layout/activity_main2.xml" value="0.22" />
+        <entry key="..\:/Users/cna/MobileAppProject/app/src/main/res/layout/activity_plat.xml" value="0.1234375" />
+        <entry key="..\:/Users/cna/MobileAppProject/app/src/main/res/layout/activity_registration.xml" value="0.16197916666666667" />
+        <entry key="..\:/Users/cna/MobileAppProject/app/src/main/res/layout/activity_resto.xml" value="0.25" />
         <entry key="..\:/Users/cna/MobileAppProject/app/src/main/res/layout/activity_splash.xml" value="0.12" />
+        <entry key="..\:/Users/cna/MobileAppProject/app/src/main/res/layout/activity_update_plat.xml" value="0.1953125" />
+        <entry key="..\:/Users/cna/MobileAppProject/app/src/main/res/layout/card_layout.xml" value="0.2" />
+        <entry key="..\:/Users/cna/MobileAppProject/app/src/main/res/layout/card_plat.xml" value="0.67" />
+        <entry key="..\:/Users/cna/MobileAppProject/app/src/main/res/layout/content_main.xml" value="0.15260416666666668" />
+        <entry key="..\:/Users/cna/MobileAppProject/app/src/main/res/layout/fragment_first.xml" value="0.15260416666666668" />
+        <entry key="..\:/Users/cna/MobileAppProject/app/src/main/res/layout/fragment_second.xml" value="0.15260416666666668" />
+        <entry key="..\:/Users/cna/MobileAppProject/app/src/main/res/layout/plat_row.xml" value="0.153125" />
+        <entry key="..\:/Users/cna/MobileAppProject/app/src/main/res/menu/activity_main_drawer.xml" value="0.20989583333333334" />
+        <entry key="..\:/Users/cna/MobileAppProject/app/src/main/res/menu/client_menu.xml" value="0.20989583333333334" />
+        <entry key="..\:/Users/cna/MobileAppProject/app/src/main/res/menu/home.xml" value="0.20989583333333334" />
         <entry key="..\:/Users/cna/MobileAppProject/app/src/main/res/menu/restaurent_menu.xml" value="0.22" />
+        <entry key="..\:/Users/cna/MobileAppProject/app/src/main/res/mipmap-anydpi-v26/circleFood.xml" value="0.1065" />
         <entry key="app/src/main/res/drawable/ic_menu_camera.xml" value="0.2355" />
         <entry key="app/src/main/res/drawable/ic_menu_gallery.xml" value="0.2355" />
         <entry key="app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.2355" />

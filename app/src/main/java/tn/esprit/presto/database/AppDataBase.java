@@ -4,14 +4,17 @@ import android.content.Context;
 
 import androidx.room.*;
 
+import tn.esprit.presto.dao.PlatDao;
 import tn.esprit.presto.dao.UserDao;
+import tn.esprit.presto.entities.Plat;
 import tn.esprit.presto.entities.User;
 
-@Database(entities = {User.class}, version = 1, exportSchema = false)
+@Database(entities = {User.class, Plat.class}, version = 1, exportSchema = false)
 public abstract class AppDataBase extends RoomDatabase {
 
     private static AppDataBase instance;
     public abstract UserDao userDao();
+    public abstract PlatDao platDao();
 
     public static AppDataBase getAppDatabase(Context context) {
         if (instance == null) {

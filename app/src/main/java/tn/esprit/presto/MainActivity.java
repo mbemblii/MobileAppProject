@@ -35,6 +35,11 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        try
+        {
+            this.getSupportActionBar().hide();
+        }
+        catch (NullPointerException e){}
 
         database = AppDataBase.getAppDatabase(this);
         userDao = database.userDao();
@@ -58,10 +63,17 @@ public class MainActivity extends AppCompatActivity {
                         Toast.makeText(getApplicationContext(),"Vérifiez vos informations!",Toast.LENGTH_SHORT).show();
                     }
                     else{
+                        String role = u.getRole();
                         editor.putString("username", usernameET.getText().toString()).apply();
                         editor.putString("user_id", String.valueOf(u.getId())).apply();
-                        Intent i = new Intent(MainActivity.this, HomeActivity.class);
-                        startActivity(i);
+                        if(role.equals("Restaurent")){
+                            Intent i = new Intent(MainActivity.this, RestoActivity.class);
+                            startActivity(i);}
+                        else {
+                            Intent i = new Intent(MainActivity.this, HomeActivity.class);
+                            startActivity(i);
+                        }
+
                     }
                     // end check
                 }

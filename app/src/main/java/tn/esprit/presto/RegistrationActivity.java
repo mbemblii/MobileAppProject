@@ -34,6 +34,11 @@ public class RegistrationActivity extends AppCompatActivity implements AdapterVi
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registration);
+        try
+        {
+            this.getSupportActionBar().hide();
+        }
+        catch (NullPointerException e){}
 
         database = AppDataBase.getAppDatabase(this);
         userDao = database.userDao();

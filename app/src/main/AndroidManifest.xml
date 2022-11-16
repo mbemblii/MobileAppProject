@@ -14,6 +14,15 @@
             android:theme="@style/Theme.Presto"
             tools:targetApi="31">
         <activity
+                android:name=".UpdatePlat"
+                android:exported="false"/>
+        <activity
+                android:name=".RestoActivity"
+                android:exported="false"/>
+        <activity
+                android:name=".HomeActivity"
+                android:exported="false"/>
+        <activity
                 android:name=".SplashActivity"
                 android:exported="true">
             <intent-filter>
@@ -26,9 +35,6 @@
                 android:name=".MainActivity"
                 android:exported="true">
         </activity>
-        <activity
-                android:name=".HomeActivity"
-                android:exported="true"/>
         <activity
                 android:name=".RegistrationActivity"
                 android:exported="true"/>
