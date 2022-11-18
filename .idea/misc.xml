@@ -5,6 +5,7 @@
       <map>
         <entry key="..\:/Users/cna/MobileAppProject/app/src/main/res/drawable/circleFood_background.xml" value="0.1535" />
         <entry key="..\:/Users/cna/MobileAppProject/app/src/main/res/drawable/ic_baseline_delete_24.xml" value="0.172" />
+        <entry key="..\:/Users/cna/MobileAppProject/app/src/main/res/layout/activity_card_resto.xml" value="0.125" />
         <entry key="..\:/Users/cna/MobileAppProject/app/src/main/res/layout/activity_client.xml" value="0.22" />
         <entry key="..\:/Users/cna/MobileAppProject/app/src/main/res/layout/activity_home.xml" value="0.1015625" />
         <entry key="..\:/Users/cna/MobileAppProject/app/src/main/res/layout/activity_main.xml" value="0.1953125" />
@@ -15,7 +16,8 @@
         <entry key="..\:/Users/cna/MobileAppProject/app/src/main/res/layout/activity_splash.xml" value="0.12" />
         <entry key="..\:/Users/cna/MobileAppProject/app/src/main/res/layout/activity_update_plat.xml" value="0.1953125" />
         <entry key="..\:/Users/cna/MobileAppProject/app/src/main/res/layout/card_layout.xml" value="0.2" />
-        <entry key="..\:/Users/cna/MobileAppProject/app/src/main/res/layout/card_plat.xml" value="0.67" />
+        <entry key="..\:/Users/cna/MobileAppProject/app/src/main/res/layout/card_plat.xml" value="0.6532738095238095" />
+        <entry key="..\:/Users/cna/MobileAppProject/app/src/main/res/layout/card_resto.xml" value="0.5295536791314838" />
         <entry key="..\:/Users/cna/MobileAppProject/app/src/main/res/layout/content_main.xml" value="0.15260416666666668" />
         <entry key="..\:/Users/cna/MobileAppProject/app/src/main/res/layout/fragment_first.xml" value="0.15260416666666668" />
         <entry key="..\:/Users/cna/MobileAppProject/app/src/main/res/layout/fragment_second.xml" value="0.15260416666666668" />

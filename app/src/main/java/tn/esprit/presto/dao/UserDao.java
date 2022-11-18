@@ -30,5 +30,8 @@ public interface UserDao {
     @Query("select * from user_table where id= :id")
     User getUserById(Long id);
 
+    @Query("select * from user_table where role= :role")
+    User getUserByRole(String role);
+
 
 }

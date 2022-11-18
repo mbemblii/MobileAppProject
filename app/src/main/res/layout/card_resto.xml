@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:contentPadding="10dp"
+        android:layout_margin="5dp">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+
+
+        <LinearLayout
+                android:layout_alignParentLeft="true"
+                android:layout_toLeftOf="@+id/imageLayout"
+                android:id="@+id/data"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/nameResto"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+                android:id="@+id/imageLayout"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            <com.google.android.material.card.MaterialCardView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    app:cardCornerRadius="50dp"
+                    app:strokeWidth="1dp"
+                    app:strokeColor="@color/white">
+                <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/circular_image"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/resto"/>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <ImageView
+                    android:id="@+id/seeMore"
+                    android:layout_marginTop="13dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/ic_baseline_more_horiz_24"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
